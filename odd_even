@@ -1,0 +1,20 @@
+try:
+    n=int(input("Enter a number: "))
+    if n%4==0:
+        print("This is a unique number divisible by 4")
+    elif n%2==0:
+        print("This is a even number")
+    else:
+        print("This is a odd number")
+except ValueError:
+    print("Please enter a integer value")
+    
+ #####################################################
+ 
+ num=int(input("Enter a number:"))
+check=int(input("Enter a number to divide by:"))
+div=num%check
+if div%2==0:
+    print("The check divides evenly")
+else:
+    print("The check does not")
