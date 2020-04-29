@@ -1,0 +1,9 @@
+name=input("Please give your name: ")
+age=int(input("what is your age: "))
+x=int(input("Enter another number: "))
+year=2020+(100-age)
+print("Hey", name,"You will turn 100 years in ",year)
+i=1
+while i<=x:
+    print("Hey", name,"You will turn 100 years in ",year)
+    i += 1
